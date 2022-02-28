@@ -1,0 +1,12 @@
+@mixin botones {
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.boton1 {
+    @include botones;
+}
+.boton2 {
+    @include botones;
+}

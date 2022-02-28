@@ -1,0 +1,19 @@
+/* Mapas */
+$bt1: (
+    bg-boton1: white,
+    font-boton1: 23px,
+ ) ;
+$bt2: (
+    bg-boton2: rgba(226, 219, 219, 0.452),
+    font-boton2: 23px,
+ ) ;
+
+ .boton1 {
+     background-color: map-get($map: $bt1, $key:bg-boton1 );
+     font-size: map-get($map: $bt1, $key:font-boton1 ); 
+ }
+
+ .boton2 {
+    background-color: map-get($map: $bt2, $key:bg-boton2); 
+    font-size: map-get($map: $bt2, $key:font-boton2 ); 
+}
